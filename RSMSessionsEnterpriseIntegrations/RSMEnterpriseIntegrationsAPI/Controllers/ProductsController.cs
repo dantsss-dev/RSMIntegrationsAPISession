@@ -3,7 +3,6 @@ namespace RSMEnterpriseIntegrationsAPI.Controllers
     using Microsoft.AspNetCore.Mvc;
 
     using RSMEnterpriseIntegrationsAPI.Application.DTOs;
-    using RSMEnterpriseIntegrationsAPI.Application.Exceptions;
     using RSMEnterpriseIntegrationsAPI.Domain.Interfaces;
 
     [Route("api/[controller]")]
