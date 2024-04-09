@@ -1,10 +1,12 @@
 namespace RSMEnterpriseIntegrationsAPI.Controllers
 {
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
     using RSMEnterpriseIntegrationsAPI.Application.DTOs;
     using RSMEnterpriseIntegrationsAPI.Domain.Interfaces;
 
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SalesOrderHeadersController : ControllerBase
